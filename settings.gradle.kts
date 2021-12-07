@@ -1,0 +1,1 @@
+rootProject.name = "dev.amal.social-network-ktor"

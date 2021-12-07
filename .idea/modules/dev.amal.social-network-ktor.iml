@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="dev.amal.social-network-ktor" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="dev.amal" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-websockets/1.6.5/2fc730fdfe4cfaad205ad820410e109776a47c11/ktor-websockets-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-gson/1.6.5/5b742e40cd63157e854d490bd8a29eacc6f458c5/ktor-gson-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/1.6.5/6ebd2185ab487d16c07699a942132505375bc0b8/ktor-server-netty-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-host-common/1.6.5/e6af65a51ad10287e102f28d1873bed7dab11841/ktor-server-host-common-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-auth-jwt/1.6.5/e226d21a04ca436b2d774ed84eff031db243a872/ktor-auth-jwt-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-auth/1.6.5/7d6995a0ad6dd428abc51bebd45304e9fe116388/ktor-auth-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-core/1.6.5/473b0e2b4722c786476036d245642085b00ece47/ktor-server-core-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.5.2-native-mt/d69f81952deecb5b523eec050ee1b5481bba482c/kotlinx-coroutines-jdk8-1.5.2-native-mt.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/1.6.5/e297aac0ae64e7f3f631a997f08aff10616f06f/ktor-client-core-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.6.5/f642352cfc5436229aacbb91754ced03eefc11a9/ktor-http-cio-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.6.5/382f50ea5c9f9e5874bc9ef9cfd265ffa8501d72/ktor-http-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network-jvm/1.6.5/5e0e92559d5318cfe289a6a0b73a01cbd3fcfec5/ktor-network-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.6.5/1cefcdad3bd902760f1fa32336e0f1b740049038/ktor-utils-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.6.5/3ef28f193a7c33a012a22a6e8daacb8e1f01a13/ktor-io-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2-native-mt/26a9506d10d933615533c703483cec0a5c13a9f3/kotlinx-coroutines-core-jvm-1.5.2-native-mt.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.0/baf82c475e9372c25407f3d132439e4aa803b8b8/kotlin-stdlib-jdk8-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.0/da6bdc87391322974a43ccc00a25536ae74dad51/kotlin-stdlib-jdk7-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.31/1523fcd842a47da0820cea772b19c51056fec8a9/kotlin-reflect-1.5.31.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.4.1/19058a07624a87f90d129af7cd9c68bee94535a9/config-1.4.1.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/8a432c1d6825781e21a02db2e2c33c5fde2833b9/gson-2.8.9.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.auth0/java-jwt/3.13.0/8d497b412a05214bec3cee45e1c0d56e5b11aa66/java-jwt-3.13.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.auth0/jwks-rsa/0.17.0/7c0fcd847940b6776163ef3c677d92c8e4b36798/jwks-rsa-0.17.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.69.Final/cfd4423c9d19683a6bf37e235830e73ec2f75ec1/netty-codec-http2-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.alpn/alpn-api/1.1.3.v20160715/a1bf3a937f91b4c953acd13e8c9552347adc2198/alpn-api-1.1.3.v20160715.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.69.Final/b02f2b4051d17f4ec81daf7000231596ba82adf2/netty-transport-native-kqueue-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.69.Final/22752c3332435a870157ca92583ac2566a60567e/netty-transport-native-epoll-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.69.Final/702c6104a716ca9dc8eec6f4459733fdfcbe1959/netty-codec-http-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.69.Final/73e932059ce8881094cedcfe4a92b8391ffa7b1b/netty-handler-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.69.Final/617ecaee8bcb3874234e8c0832843ebbc9e9dcc9/netty-codec-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.69.Final/b055314f117262c23df91a3874bebf0a53f3e24/netty-transport-native-unix-common-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.69.Final/228e5318012edb93138005ebe896b5dd91d4b47d/netty-transport-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.69.Final/c87da90e422b331ecd1e157ca77e5300348b6d0d/netty-buffer-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.69.Final/d4e7b1b8c1e5aeaf41877906b90762f1e0151902/netty-resolver-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.69.Final/810e0649787c4930a8e699d68eb8519df2560dd0/netty-common-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="dev.amal.social-network-ktor" />
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.6.0/aea1438a95ff80b5ff71ac9fc998462297ddffea/kotlin-scripting-jvm-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.6.0/5bb427e36a331fde47846d026b687b3d5a244f7c/kotlin-scripting-common-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.6.0/55f72526ddcff6fc77d72cdf949c7e3d9bd95620/kotlin-script-runtime-1.6.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/kotlin" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websockets-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-gson-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-host-common-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-auth-jwt-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-auth-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.2-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.5.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.auth0:java-jwt:3.13.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.auth0:jwks-rsa:0.17.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.10" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.fusesource.jansi:jansi:2.4.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.11.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.guava:guava:30.0-jre" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.11.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.11.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.checkerframework:checker-qual:3.5.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-server-tests-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-server-test-host-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-network-tls-certificates-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-jetty-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-cio-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-network-tls-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ch.qos.logback:logback-classic:1.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ch.qos.logback:logback-core:1.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-http-client-transport:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-common:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-alpn-java-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-alpn-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-hpack:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-http:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-io:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-util:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-debug:1.5.2-native-mt" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.fusesource.jansi:jansi:2.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.11.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:guava:30.0-jre" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.11.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.11.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.checkerframework:checker-qual:3.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.java.dev.jna:jna-platform:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.java.dev.jna:jna:5.5.0" level="project" />
+  </component>
+</module>
