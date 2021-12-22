@@ -1,23 +1,76 @@
 package dev.amal.plugins
 
-import io.ktor.routing.*
-import io.ktor.http.*
-import io.ktor.content.*
-import io.ktor.http.content.*
+import dev.amal.routes.*
+import dev.amal.service.*
+import dev.amal.service.chat.ChatService
 import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.request.*
+import io.ktor.http.content.*
+import io.ktor.routing.*
+import org.koin.ktor.ext.inject
 
 fun Application.configureRouting() {
-    
+    val userService: UserService by inject()
+    val followService: FollowService by inject()
+    val postService: PostService by inject()
+    val likeService: LikeService by inject()
+    val commentService: CommentService by inject()
+    val activityService: ActivityService by inject()
+    val skillService: SkillService by inject()
+    val chatService: ChatService by inject()
+//    val chatController: ChatController by inject()
 
+    val jwtIssuer = environment.config.property("jwt.domain").getString()
+    val jwtAudience = environment.config.property("jwt.audience").getString()
+    val jwtSecret = environment.config.property("jwt.secret").getString()
     routing {
-        get("/") {
-                call.respondText("Hello World!")
-            }
-        // Static plugin. Try to access `/static/index.html`
-        static("/static") {
+        // User routes
+        authenticate()
+        createUser(userService)
+        loginUser(
+            userService = userService,
+            jwtIssuer = jwtIssuer,
+            jwtAudience = jwtAudience,
+            jwtSecret = jwtSecret
+        )
+        searchUser(userService)
+        getUserProfile(userService)
+        getPostsForProfile(postService)
+        updateUserProfile(userService)
+
+        // Following routes
+        followUser(followService, activityService)
+        unfollowUser(followService)
+
+        // Post routes
+        createPost(postService)
+        getPostsForFollows(postService)
+        deletePost(postService, likeService, commentService)
+        getPostDetails(postService)
+
+        // Like routes
+        likeParent(likeService, activityService)
+        unlikeParent(likeService)
+        getLikesForParent(likeService)
+
+        // Comment routes
+        createComment(commentService, activityService)
+        deleteComment(commentService, likeService)
+        getCommentsForPost(commentService)
+
+        // Activity routes
+        getActivities(activityService)
+
+        // Skill routes
+        getSkills(skillService)
+
+        // Chat routes
+//        getChatsForUser(chatService)
+//        getMessagesForChat(chatService)
+//        chatWebSocket(chatController)
+
+        static {
             resources("static")
         }
     }
 }
+
